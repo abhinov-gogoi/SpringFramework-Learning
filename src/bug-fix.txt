@@ -1,0 +1,2 @@
+ 1/ BUG- IOException parsing XML document from class path resource - while configuring ApplicationContext.xml file path
+ Fix- in Maven, the standard directory for resources is src/main/resources, so I suggest you put ApplicationContext.xml file there
